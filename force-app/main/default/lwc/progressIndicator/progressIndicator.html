@@ -1,0 +1,29 @@
+<!--
+  @description       : 
+  @author            : salesforce
+  @group             : 
+  @last modified on  : 09-16-2025
+  @last modified by  : salesforce
+-->
+<template>
+    <div class="progress-container slds-grid slds-grid_vertical-align-center slds-grid_align-center">
+        <div class="slds-progress-ring" 
+             style={ringStyle}
+             data-step={currentStep}
+             data-total={totalSteps}>
+            <div class="slds-progress-ring__progress">
+                <svg viewBox="-1 -1 2 2">
+                    <circle class="slds-progress-ring__path" cx="0" cy="0" r="1"></circle>
+                </svg>
+            </div>
+            
+            <!-- Content Area -->
+            <div class="slds-progress-ring__content">
+                <span class="progress-text slds-text-heading_medium">
+                    {currentStep}/{totalSteps}
+                </span>
+                <div class="slds-text-body_small step-label">{currentLabel}</div>
+            </div>
+        </div>
+    </div>
+</template>

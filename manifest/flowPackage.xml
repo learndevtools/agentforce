@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>Document_Agent_Force_Validation_Log__c</members>
+		<members>Document_Agent_Force_Validation__c</members>
+		<members>Document_Record__c</members>
+		<name>CustomObject</name>
+	</types>
+    <types>
+		<members>Document_Agent_Force_Validation__c-DocumentAgentForceValidation</members>
+		<name>Layout</name>
+	</types>
+	<version>64.0</version>
+</Package>
